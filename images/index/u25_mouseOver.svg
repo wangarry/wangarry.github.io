@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="766px" height="16px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip10">
+      <path d="M 333.942794279427 6  C 332.262794279427 6  0 4.67999999999995  0 3  C 0 1.32000000000005  332.262794279427 0  333.942794279427 0  L 345.479905437353 0  C 347.159905437353 0  754.634651600755 1.31826741996372  755.76459510358 3  C 756.894538606404 4.68173258003628  347.159905437353 6  345.479905437353 6  L 333.942794279427 6  Z " fill-rule="evenodd" />
+    </mask>
+    <filter x="544px" y="600px" width="766px" height="16px" filterUnits="userSpaceOnUse" id="filter11">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget12">
+      <path d="M 333.942794279427 6  C 332.262794279427 6  0 4.67999999999995  0 3  C 0 1.32000000000005  332.262794279427 0  333.942794279427 0  L 345.479905437353 0  C 347.159905437353 0  754.634651600755 1.31826741996372  755.76459510358 3  C 756.894538606404 4.68173258003628  347.159905437353 6  345.479905437353 6  L 333.942794279427 6  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" transform="matrix(1 0 0 1 544 600 )" />
+      <path d="M 333.942794279427 6  C 332.262794279427 6  0 4.67999999999995  0 3  C 0 1.32000000000005  332.262794279427 0  333.942794279427 0  L 345.479905437353 0  C 347.159905437353 0  754.634651600755 1.31826741996372  755.76459510358 3  C 756.894538606404 4.68173258003628  347.159905437353 6  345.479905437353 6  L 333.942794279427 6  Z " stroke-width="2" stroke="#ffffff" fill="none" transform="matrix(1 0 0 1 544 600 )" mask="url(#clip10)" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -544 -600 )">
+    <use xlink:href="#widget12" filter="url(#filter11)" />
+    <use xlink:href="#widget12" />
+  </g>
+</svg>
